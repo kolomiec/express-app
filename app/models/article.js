@@ -9,7 +9,7 @@ var mongoose = require('mongoose')
   , config = require('../../config/config')[env]
   , imagerConfig = require(config.root + '/config/imager.js')
   , Schema = mongoose.Schema
-  , utils = require('../../lib/utils')
+  , utils = require('../../js/utils')
 
 /**
  * Getters

@@ -2,4 +2,6 @@ extends ../layouts/default
 
 block main
   - var name = user.name ? user.name : user.username
+  - var isAdmin = user.isAdmin ? 'is admin' : 'is not admin'
   h1= name
+  span= isAdmin
